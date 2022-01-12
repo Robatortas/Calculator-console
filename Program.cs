@@ -9,8 +9,8 @@ public static class Program {
     private static long num02 = 0;
     private static String enter = "\n";
     
+    // console function
     public static void console() {
-
         // Run
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.Title = "Calculator Test";
@@ -74,7 +74,7 @@ public static class Program {
         System.Console.write
     }
 
-        // Main class
+        // Main method
         public static void Main(String[] args) => console();
     }
 }
